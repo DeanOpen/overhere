@@ -9,7 +9,7 @@ from PIL import Image
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "site" / "docs"
-EMAIL = "tech@nextwaves.com"
+EMAIL = "hello@deanoss.com"
 
 CSS = """
 :root{--ink:#111016;--surface:#1C1B22;--raised:#2A2932;--spot:#FFD23F;--text:#fff;--muted:rgba(255,255,255,.62);--line:rgba(255,255,255,.09)}
