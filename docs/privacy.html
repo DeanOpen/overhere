@@ -9,7 +9,8 @@ html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--ink);color:var(--text);font:17px/1.6 ui-rounded,"SF Pro Rounded",-apple-system,system-ui,"Segoe UI",Roboto,sans-serif}
 a{color:var(--spot)}
 .wrap{max-width:980px;margin:0 auto;padding:0 16px}
-header{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:18px 0}
+header{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px 12px;padding:18px 0}
+@media(max-width:520px){nav{gap:12px;font-size:14px}.brand{font-size:18px}}
 .brand{display:flex;align-items:center;gap:10px;color:var(--text);text-decoration:none;font-weight:900;font-size:20px}
 .brand img{width:36px;height:36px;border-radius:9px}
 nav{display:flex;gap:14px;align-items:center;flex-wrap:wrap;font-weight:700;font-size:15px}
