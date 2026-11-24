@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Over Here Privacy Policy</title><meta name="description" content="Find your friends in a crowd, with exact distance and direction.">
+<link rel="icon" href="icon.png"><link rel="apple-touch-icon" href="icon.png">
+<style>
+:root{--ink:#111016;--surface:#1C1B22;--raised:#2A2932;--spot:#FFD23F;--text:#fff;--muted:rgba(255,255,255,.62);--line:rgba(255,255,255,.09)}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--ink);color:var(--text);font:17px/1.6 ui-rounded,"SF Pro Rounded",-apple-system,system-ui,"Segoe UI",Roboto,sans-serif}
+a{color:var(--spot)}
+.wrap{max-width:980px;margin:0 auto;padding:0 16px}
+header{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:18px 0}
+.brand{display:flex;align-items:center;gap:10px;color:var(--text);text-decoration:none;font-weight:900;font-size:20px}
+.brand img{width:36px;height:36px;border-radius:9px}
+nav{display:flex;gap:14px;align-items:center;flex-wrap:wrap;font-weight:700;font-size:15px}
+nav a{color:var(--muted);text-decoration:none}
+nav a:hover,nav a.on{color:var(--text)}
+.lang{background:var(--raised);border:0;color:var(--text);font:inherit;font-weight:800;border-radius:99px;padding:5px 12px;cursor:pointer}
+html[lang=en] [data-l=vi],html[lang=vi] [data-l=en]{display:none!important}
+.hero{text-align:center;padding:48px 0 24px}
+.hero img.icon{width:112px;height:112px;border-radius:26px;box-shadow:0 12px 40px rgba(255,210,63,.25)}
+h1{font-size:clamp(34px,7vw,60px);line-height:1.05;font-weight:900;margin:22px 0 12px;letter-spacing:-.02em}
+.lead{color:var(--muted);font-size:clamp(17px,2.4vw,21px);max-width:640px;margin:0 auto}
+.cta{display:inline-block;margin-top:26px;background:var(--spot);color:var(--ink);font-weight:900;text-decoration:none;padding:14px 26px;border-radius:99px}
+.shots{display:flex;gap:14px;overflow-x:auto;padding:32px 0 8px;scroll-snap-type:x mandatory}
+.shots img{height:min(560px,70vh);border-radius:22px;scroll-snap-align:center;flex:none}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;padding:32px 0}
+.card{background:var(--surface);border-radius:22px;padding:22px}
+.card h3{margin:0 0 6px;font-size:19px;font-weight:900}
+.card p{margin:0;color:var(--muted);font-size:16px}
+.doc{max-width:760px;padding:24px 0 48px}
+.doc h1{font-size:clamp(30px,5vw,44px)}
+.doc h2{font-size:22px;margin:34px 0 8px;font-weight:900}
+.doc h3{font-size:18px;margin:24px 0 6px}
+.doc p,.doc li{color:rgba(255,255,255,.86)}
+.doc table{width:100%;border-collapse:collapse;font-size:15px;display:block;overflow-x:auto}
+.doc th,.doc td{border-bottom:1px solid var(--line);padding:9px 10px;text-align:left;vertical-align:top}
+.doc th{color:var(--muted);font-weight:800}
+details{background:var(--surface);border-radius:16px;padding:14px 18px;margin:10px 0}
+summary{font-weight:800;cursor:pointer}
+details p,details ul{color:var(--muted);margin:10px 0 0}
+.contact{background:var(--surface);border-radius:22px;padding:22px;margin-top:28px}
+footer{border-top:1px solid var(--line);margin-top:40px;padding:22px 0 40px;color:var(--muted);font-size:14px;display:flex;gap:16px;flex-wrap:wrap}
+footer a{color:var(--muted)}
+</style><script>
+(function(){var d=document.documentElement,k='oh-lang',s=null;
+try{s=localStorage.getItem(k)}catch(e){}
+var l=s||((navigator.language||'').toLowerCase().indexOf('vi')===0?'vi':'en');
+if(document.querySelector('[data-l]'))d.lang=l;
+window.toggleLang=function(){d.lang=d.lang==='vi'?'en':'vi';try{localStorage.setItem(k,d.lang)}catch(e){}};})();
+</script></head>
+<body><div class="wrap">
+<header><a class="brand" href="index.html"><img src="icon.png" alt="">Over Here</a><nav><a href="support.html">Support</a><a href="privacy.html" class=on>Privacy</a><a href="terms.html">Terms</a></nav></header>
+<section class="doc"><h1>Over Here: Privacy Policy</h1>
+<p><em>Effective 17 November 2026 · Version 1</em></p>
+<p><strong>Short version:</strong> Over Here has no accounts and no servers. Your location, messages and photos stay on your phone and the phones of people in your group. We (OVER HERE) never receive them.</p>
+<h2>What stays on your phone</h2>
+<table><thead><tr><th>Data</th><th>Why</th><th>Where it goes</th></tr></thead><tbody><tr><td>Your name, emoji, colour and optional photo</td><td>So friends recognise you</td><td>Shown to app users nearby (so they can invite you) and to your group</td></tr><tr><td>Your group code</td><td>Lets your group find each other</td><td>Only to people you invite or show the QR to (sent encrypted when invited)</td></tr><tr><td>Your security keys</td><td>Encrypt and sign your messages</td><td>Never leave your phone (stored in the iPhone Keychain)</td></tr><tr><td>Distances and directions to group members</td><td>The core feature</td><td>Calculated on your phone; shared encrypted with your group to help locate people out of range</td></tr><tr><td>Messages and photos</td><td>Group and private chat</td><td>Sent encrypted, phone to phone, only within your group</td></tr><tr><td>Your GPS position (only in optional GPS mode, off by default)</td><td>Lets your group find you from further away and on a map</td><td>Sent encrypted, phone to phone, only within your group, and only while the app is open</td></tr><tr><td>Diagnostics log</td><td>Troubleshooting</td><td>Stays on your phone</td></tr></tbody></table>
+<h2>What we collect</h2>
+<p><strong>Nothing.</strong> The app has no analytics, advertising, tracking SDKs or servers. We can't see who you are, where you are, who's in your group or what you send.</p>
+<h2>Permissions</h2>
+<ul><li><strong>Bluetooth</strong>: to discover and connect to your group's phones, also in the background.</li><li><strong>Nearby Interaction (UWB)</strong>: for exact distance and direction.</li><li><strong>Camera</strong> (optional): for your profile photo, scanning group QR codes, photo messages and improving the direction arrow.</li><li><strong>Photos</strong> (optional): to choose a profile or message photo.</li><li><strong>Notifications</strong> (optional): pings, invites and messages.</li><li><strong>Location</strong> (optional, GPS mode only): to share your position with your group while the app is open. Off unless you turn it on.</li><li><strong>Compass</strong>: to combine directions when someone is located through a friend.</li></ul>
+<p>You can change these at any time in iPhone Settings.</p>
+<h2>Security</h2>
+<p>Group messages, private messages, photos, pings and location sharing are end-to-end encrypted (AES-GCM, Curve25519). Messages are signed so they can't be faked. Invites show a safety code on both phones to detect anyone trying to intercept. The Apple Maps view loads map images from Apple when you have internet; your group's positions are never sent to Apple or to us. Your name, emoji and profile photo are not encrypted, because they let nearby people invite you.</p>
+<h2>Keeping and deleting data</h2>
+<p>Data stays on your phone until you delete it. Leaving or switching group clears that group's chat. A backup of your profile, group and member list is kept in the iPhone Keychain so a reinstall restores it. To erase everything, delete the app and, for the Keychain backup, reset your iPhone's Keychain or email <a href="mailto:tech@nextwaves.com">tech@nextwaves.com</a> and we'll explain how.</p>
+<h2>Children</h2>
+<p>The app is not intended for children under 13, who cannot give valid consent under the PDPA. Parents should not rely on it to keep track of children (see the Terms of Use).</p>
+<h2>Your rights</h2>
+<p>Because we hold no personal data, there is nothing for us to access, correct or delete on our side. Your data is on your devices and under your control. This policy is intended to comply with Singapore's Personal Data Protection Act 2012 (PDPA) and similar laws elsewhere. You may still contact our Data Protection Officer to ask what data we hold about you, to withdraw consent, or to raise a concern, and you may complain to Singapore's Personal Data Protection Commission (PDPC).</p>
+<h2>Changes and contact</h2>
+<p>If this policy changes, the app will show the new version.</p>
+<p>Questions or requests? Email our Data Protection Officer at <strong><a href="mailto:tech@nextwaves.com">tech@nextwaves.com</a></strong>.</p></section>
+<footer><span>© 2026 Over Here</span><a href="support.html">Support</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Use</a><a href="mailto:tech@nextwaves.com">tech@nextwaves.com</a></footer>
+</div></body></html>
